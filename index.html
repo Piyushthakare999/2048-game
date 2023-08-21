@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="get">
+        <div class="firsttext">
+            <div id="logomain">
+                <!-- <div id="logo">2048</div> -->
+                <div id="logoeff">
+                    <table>
+                        <tr>
+                            <td class="c2">2 </td>
+                            <td class="c0">0 </td>
+                            <td class="c4">4 </td>
+                            <td class="c8">8</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="stext">Select the mode</div> 
+        </div>
+        <div id="cross">
+            <div class="select" id="s4" onclick="fun4()"><span>4</span> </div>
+            <div class="select" id="s5" onclick="fun5()"><span>5</span> </div>
+            <div class="select" id="s6" onclick="fun6()"><span>6</span></div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="info" class="on">
+            <div id="msg">
+                score
+            </div>
+            <div id="score">
+                0
+            </div>
+            <div>
+                <button onclick="reload()">Play again</button>
+            </div>
+        </div>
+        <div id="game">
+        </div>
+    </div>
+
+</body>
+<script src="test.js"></script>
+<script src="main.js"></script>
+
+</html>
